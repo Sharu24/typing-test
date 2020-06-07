@@ -7,21 +7,18 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 
-  background: linear-gradient(
-      rgba(49, 44, 45, 0.9),
-      rgba(49, 44, 45, 0.6),
-      rgba(49, 44, 45, 0.3)
-    ),
-    url("./background-image.jpeg") no-repeat center/cover fixed;
-  background-repeat: no-repeat;
+  background: url("./background-image.jpeg") center center no-repeat,
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 100));
 }
 .title {
   font-size: 1.5rem;
-  color: #ccc3b6;
+  color: rgba(49, 44, 45, 1);
   margin: 1rem auto;
 }
 
 .title h4 {
+  max-width: 52rem;
+  text-align: center;
   margin: 2rem auto;
 }
 .result-container {
